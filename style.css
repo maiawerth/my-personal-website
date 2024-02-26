@@ -1,4 +1,7 @@
 body {
-    background: blue;
+    background: rgb(200, 200, 234);
   }
-  
+  .normal-size-image {
+    width: 300px;
+    height: auto;
+    }
