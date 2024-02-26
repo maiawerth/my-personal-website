@@ -1,7 +1,20 @@
 body {
     background: rgb(200, 200, 234);
   }
+  
   .normal-size-image {
     width: 300px;
     height: auto;
-    }
+  }
+  
+  .dog-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .dog-description {
+    text-align: center;
+    margin-top: 10px;
+  }
