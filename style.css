@@ -38,5 +38,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    padding-top: 20px; /* Add padding to the top */
+    padding-top: 20px;
   }
+
+  .welcome {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    }
