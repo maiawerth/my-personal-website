@@ -1,20 +1,44 @@
 body {
-    background: rgb(200, 200, 234);
+    background: #A9EBFF;
   }
-  
+
   .normal-size-image {
     width: 300px;
     height: auto;
   }
-  
+
   .dog-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
   }
-  
+
+  .dog-container div:first-child {
+    margin-right: 10px;
+  }
+
+  .dog-container div:last-child {
+    margin-left: 10px;
+  }
+
   .dog-description {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 10px;
+  }
+
+  .text-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .center-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
