@@ -1,37 +1,37 @@
 body {
     background: #A9EBFF;
   }
-
+  
   .normal-size-image {
     width: 300px;
     height: auto;
   }
-
+  
   .dog-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
   }
-
+  
   .dog-container div {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 10px;
   }
-
+  
   .dog-container figcaption {
     text-align: center;
     margin-top: 10px;
   }
-
+  
   .text-container {
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
   }
-
+  
   .center-container {
     display: flex;
     flex-direction: column;
@@ -40,9 +40,16 @@ body {
     height: 100vh;
     padding-top: 20px;
   }
-
+  
+  h4 {
+    text-align: center;
+    margin-top: 0;
+  }
+  
   .welcome {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    }
+    margin-bottom: 10px;
+  }
+  
+  .centered {
+    margin-bottom: 10px;
+  }
